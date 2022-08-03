@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md6 mt-5 w-75">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-center">Bài tập thực hành mảng</h2>
+                    </div>
+                    <div class="card-body">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="">Nhập vào số nguyên</label>
+                                <input type="text" name="" id="numberInput" class="form-control w-25 mx-3">
+                                <label for="">nhập vào số thực</label>
+                                <input type="number" name="" id="numberInput_Is" class="form-control ml-3"
+                                    placeholder="">
+                            </div>
+                        </form>
+                        <form class="form-box mt-3">
+                            <div class="form-group">
+                                <label for="">Cấu trúc mảng số nguyên</label>
+                                <label id="arrayNumber"></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Cấu trúc mảng số thực</label>
+                                <label id="arrayReadNumber"></label>
+                            </div>
+                        </form>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="">nhập vị trí 1</label>
+                                <input type="number" name="" id="location1" class="form-control ml-3 w-25"
+                                    placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">nhập vị trí 2</label>
+                                <input type="number" name="" id="location2" class="form-control ml-3 w-25"
+                                    placeholder="">
+                            </div>
+                        </form>
+                        <div class="d-flex mb-3 mt-3">
+                            <button id="btnArInteger" type="button" class="btn btn-success mr-auto">Thêm phần tử mảng số
+                                nguyên</button>
+                            <button id="btnArReal" type="button" class="btn btn-success">Thêm phần tử mảng số
+                                thực</button>
+                        </div>
+                        <div class="row">
+                            <div class="d-flex mb-3 mt-3">
+                                <button id="btnPositiveTotal" type="button" class="btn btn-success mr-1">Tổng các số
+                                    dương</button>
+                                <button id="btnCountPositiveNumber" type="button" class="btn btn-success mr-1">Đếm số
+                                    dương trong mảng</button>
+                                <button id="btnMinNumber" type="button" class="btn btn-success mr-1">Số nhỏ nhất trong
+                                    mảng</button>
+                                <button id="btnMinPositiveNumber" type="button" class="btn btn-success">Số dương nhỏ
+                                    nhất trong mảng</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="d-flex mb-3 mt-3">
+                                <button id="btnEvenInteger" type="button" class="btn btn-success mr-1">Số chẳn cuối cùng
+                                    trong mảng</button>
+                                <button id="btnChangeLocation" type="button" class="btn btn-success mr-1">Đổi chổ 2 giá
+                                    trị trong mảng</button>
+                                <button id="btnSortAcess" type="button" class="btn btn-success mr-1">Săp xếp tăng
+                                    dần</button>
+                                <button id="btnPrimeNum" type="button" class="btn btn-success mr-1">Số nguyên tố dầu
+                                    tiên</button>
+                                <button id="btnPositive" type="button" class="btn btn-success mr-1">Đếm số nguyên trong mảng số thực</button>
+                                <button id="btnCompare" type="button" class="btn btn-success mr-1">So sánh số nguyên trong mảng</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-footer" id="show">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- main js -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
